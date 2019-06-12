@@ -1,29 +1,41 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <nav>
+      <router-link to="/">Home</router-link>
+      <router-link to="/live">League of Legends</router-link>
+      <router-link to="/live">Grand Theft Auto V</router-link>
+      <router-link to="/live">Apex Legends</router-link>
+    </nav>
     <router-view/>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+<style>
+body {
+  margin: 0;
   text-align: center;
-  color: #2c3e50;
 }
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+
+#app {
+  background: #19171c;
+  color: aliceblue;
+  height: 100vh;
+}
+
+nav {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 2rem;
+  line-height: 50px;
+}
+
+a:hover {
+  background: #f5f5f580;
 }
 </style>
