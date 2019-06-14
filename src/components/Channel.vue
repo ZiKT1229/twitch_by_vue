@@ -1,14 +1,22 @@
 <template>
   <section>
-    <p>test</p>
-    <p>test</p>
-    <p>test</p>
+    <img :src="stream.preview.medium">
+    <p>{{channel.name}}</p>
+    <a :href="channel.url">link</a>
   </section>
 </template>
 
 <script>
 export default {
   name: 'channel',
+  props: {
+    stream: Object
+  },
+  data() {
+    return {
+      channel: this.stream.channel
+    };
+  }
 }
 </script>
 
