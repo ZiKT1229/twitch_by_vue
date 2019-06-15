@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0d5bc5"],{"700f":function(e,n,t){"use strict";t.r(n);var c=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("Live",{attrs:{game:"Apex Legends"}})},a=[],s=t("d6fc"),o={name:"lol",components:{Live:s["a"]}},l=o,r=t("2877"),u=Object(r["a"])(l,c,a,!1,null,"500c0ef0",null);n["default"]=u.exports}}]);
+//# sourceMappingURL=chunk-2d0d5bc5.e817bceb.js.map
