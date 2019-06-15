@@ -2,9 +2,9 @@
   <div id="app">
     <nav>
       <router-link to="/">Home</router-link>
-      <router-link to="/live">League of Legends</router-link>
-      <router-link to="/live">Grand Theft Auto V</router-link>
-      <router-link to="/live">Apex Legends</router-link>
+      <router-link to="/lol">League of Legends</router-link>
+      <router-link to="/gtav">Grand Theft Auto V</router-link>
+      <router-link to="/apex">Apex Legends</router-link>
     </nav>
     <router-view/>
   </div>
@@ -14,12 +14,11 @@
 body {
   margin: 0;
   text-align: center;
+  background: #19171c;
 }
 
 #app {
-  background: #19171c;
   color: aliceblue;
-  height: 100vh;
 }
 
 nav {

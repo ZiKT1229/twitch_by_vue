@@ -12,9 +12,19 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/live',
-      name: 'live',
-      component: () => import('./views/Live.vue'),
+      path: '/lol',
+      name: 'lol',
+      component: () => import('./views/Lol.vue'),
+    },
+    {
+      path: '/gtav',
+      name: 'gtav',
+      component: () => import('./views/Gtav.vue'),
+    },
+    {
+      path: '/apex',
+      name: 'apex',
+      component: () => import('./views/Apex.vue'),
     },
   ],
 });
